@@ -2,7 +2,7 @@
   "name": "todoapp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://patrikholler.github.io/todo2/",
+  "homepage": "https://patrikholler.github.io/todo-react/",
   "dependencies": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
