@@ -27,7 +27,7 @@ class App extends Component {
   }
 
   addTodo(todoText){
-      const nextID = this.state.nextId += 1;
+      const nextID = this.state.nextId + 1;
       let todos = this.state.todos.slice();
       todos.push({id: this.state.nextId, text: todoText});
       this.setState({
