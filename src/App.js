@@ -20,25 +20,26 @@ class App extends Component {
 
             ],
             nextId: 6
-        }
+        };
 
         this.addTodo = this.addTodo.bind(this);
         this.removeTodo = this.removeTodo.bind(this);
   }
 
   addTodo(todoText){
+      const nextID = this.state.nextId += 1;
       let todos = this.state.todos.slice();
       todos.push({id: this.state.nextId, text: todoText});
       this.setState({
           todos: todos,
-          nextId: ++this.state.nextId
+          nextId: nextID
         });
 
-  }s
+  }
 
   removeTodo(id){
       this.setState({
-          todos: this.state.todos.filter((todo, index) => todo.id !== id)
+          todos: this.state.todos.filter((todo) => todo.id !== id)
       });
   }
 
