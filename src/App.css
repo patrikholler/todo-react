@@ -1,0 +1,15 @@
+html{
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.todo-wrapper {
+  width: auto;
+  margin: 1rem auto;
+  padding: 0 10px;
+  max-width: 360px
+}

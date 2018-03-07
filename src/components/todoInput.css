@@ -1,0 +1,37 @@
+.btn {
+    outline: none;
+    box-shadow: none;
+    border-width: 2px;
+    border-radius: 3px;
+    border-style: solid;
+    padding: 8px;
+}
+
+.btn-primary {
+    color: rgb(255, 255, 255);
+    background-color: rgb(29, 249, 74);
+    border-color: rgb(29, 249, 74);
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    border-radius: 60px;
+    width: 40px;
+    height: 40px;
+    line-height: 22px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.addtodo {
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid rgb(242, 242, 242);
+    margin-right: 10px;
+    padding: 5px;
+    line-height: 17px;
+}
+
+.addtodo:focus {
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgba(29, 249, 74, 0.3);
+}

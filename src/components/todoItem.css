@@ -1,0 +1,41 @@
+.todoWrapper {
+    text-align: left;
+    padding: 30px 0;
+    border-bottom: 1px solid #f1f1f1;;
+}
+.removeTodo {
+    margin-right: 4px;
+    /* margin-bottom: 10px; */
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-width: 2px;
+    border-radius: 60px;
+    border-style: solid;
+    padding: 8px;
+    color: #ffffff;
+    background-color: rgba(203, 20, 32, 0.4);
+    height: 30px;
+    width: 30px;
+    line-height: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.editTodo {
+    width: 80%;
+    font-size: 16px;
+    border: none;
+    height: 40px;
+}
+
+.statusTodo {
+    background: white;
+    border: 1px solid #ccc;
+    font-size: 25px;
+}
+
+ul {
+    margin: 0;
+    padding: 15px 0 15px 0;
+}
